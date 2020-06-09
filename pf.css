@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    position: 0;
+}
+#topic{
+  color: white;
+  margin-left: 10px;
+}
+
+.navbar{
+  background: linear-gradient(black, grey);;
+    padding: 0 !important;
+}
+ .navbar-nav li {
+     padding: 0 10px;
+ }
+ .navbar-nav li a{
+     color: white !important;
+     font-weight: 400;
+     float: right;
+     text-align: left;
+ }
+ .box{
+   margin-top: 50px;
+     display: flex;
+     flex-direction: row;
+  
+    
+ }
+h1{
+    text-align: center;
+    font-family: Roboto;
+}
+.desc img{
+  height: 300px;
+  width: 280px;
+}
+.desc{
+  width: 320px;
+  height:510px;
+  text-align: center;
+  box-shadow: 10px 8px 8px 8px black;
+}
+.desc:hover{
+  background: linear-gradient(black, grey);
+  color: white;
+
+}
+.desc1{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;   
+}
+.desc1 h1{
+  color: grey;
+  font-family: roboto;
+}
+.skill{
+  
+  height: 550px;
+}
+.skill h3{
+  text-align: center;
+  font-family: roboto;
+}
+
+
+
+  #projects{
+    background: linear-gradient(black, grey);
+    color:white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+ 
+  .fa-facebook {
+    color: black;
+  }
+  .fa-twitter {
+    color: black;
+  }
+  .fa-instagram {
+    color: black;
+  }
+  .fa-linkedin {
+    color: black;
+  }
